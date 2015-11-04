@@ -197,15 +197,11 @@ void quit(){
 
  	endwin();
  	
-
 	while(a<memory_usage.l){
 		free(table[a]);
 		a++;
 	}
 
 	free((void **)table);
-
-	
-
 	return;
 }
