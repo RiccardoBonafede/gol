@@ -17,3 +17,4 @@ $ ./gol
 
 Point and click with mouse for make new cell or to delete one.
 Press 'n' in order to progress with new generation.(next function)
+Press 'q' for exit;
