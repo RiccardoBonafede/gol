@@ -37,8 +37,8 @@ void init(void){
 	int i=0, a=0;
 
 
-	memory_usage.l=LINES;
-	memory_usage.c=COLS;
+	memory_usage.l=LINES + 1;
+	memory_usage.c=COLS + 1;
 
 	table= (struct node**) malloc((memory_usage.l) * sizeof( struct node*));
 	
@@ -50,7 +50,7 @@ void init(void){
 	
 	};
 	
-	while(i<memory_usage.l){
+	while(i<=memory_usage.l){
 		a=0;
 
 		table[i]= (struct node*) malloc((memory_usage.c) * sizeof(struct node));
