@@ -1,3 +1,9 @@
+/*
+	@author: Riccardo Bonafede
+	https://keybase.io/bonaff
+
+*/
+
 
 #include "main.h"
 
@@ -196,7 +202,7 @@ void quit(){
 	int a=0;
 
  	endwin();
- 	
+
 	while(a<memory_usage.l){
 		free(table[a]);
 		a++;

@@ -1,3 +1,8 @@
+/*
+	@author: Riccardo Bonafede
+	https://keybase.io/bonaff
+
+*/
 
 //Librerie necessarie
 
